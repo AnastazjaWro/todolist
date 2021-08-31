@@ -6,7 +6,40 @@
   padding: 0;
 }
 
-p {
-  color: aquamarine;
+body {
+  background: linear-gradient(-120deg, rgb(250, 206, 103), rgb(250, 154, 0));
+  color: white;
   font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+header {
+  font-size: 1.5rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: whitesmoke;
+}
+
+form button {
+  color: sandybrown;
+  background-color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: sandybrown;
+  color: whitesmoke;
 }
